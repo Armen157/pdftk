@@ -35,6 +35,9 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/league/commonmark" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/league/flysystem" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mikehaertl/php-pdftk" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mikehaertl/php-shellcommand" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mikehaertl/php-tmpfile" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
