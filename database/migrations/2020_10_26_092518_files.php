@@ -16,8 +16,7 @@ class Files extends Migration
         Schema::create('files', function (Blueprint $table) {
             $table->bigIncrements('file_id');
             $table->string('file_name');
-            $table->string('content');
-            $table->unsignedBigInteger('file_type_id');
+            $table->unsignedBigInteger('file_type_id')->default('1');
             $table->foreign('file_type_id')
                 ->references('file_type_id')
                 ->on('file_types')

@@ -22,7 +22,7 @@ class FormFields extends Migration
                 ->onUpdate('cascade');
             $table->string('field_name');
             $table->string('field_type');
-            $table->string('field_value');
+            $table->string('field_value')->nullable();
         });
     }
 

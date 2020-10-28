@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EditFile;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FileUploadController;
 
@@ -14,6 +15,12 @@ use App\Http\Controllers\FileUploadController;
 |
 */
 
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('file-upload', [FileUploadController::class, 'fileUpload'])->name('file.upload');
 Route::post('file-upload', [FileUploadController::class, 'fileUploadPost'])->name('file.upload.post');
+
+Route::post('save-values', [EditFile::class, 'EditFieldValues'])->name('save-values.post');
+

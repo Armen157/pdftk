@@ -10,6 +10,7 @@ class file_types extends Model
     use HasFactory;
 
     protected $primaryKey = 'file_type_id';
+
     /**
      * The attributes that are mass assignable.
      *
@@ -19,6 +20,9 @@ class file_types extends Model
         'file_type'
     ];
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
     public function files()
     {
         return $this->hasMany('App\models\files','file_type_id');

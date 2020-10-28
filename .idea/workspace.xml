@@ -1,15 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e189d68f-c779-4cb5-b219-a041b8a795b2" name="Default Changelist" comment="" />
+    <list default="true" id="e189d68f-c779-4cb5-b219-a041b8a795b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/fileDownload.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/saveFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SaveFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/file_types.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/file_types.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/files.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_26_092518_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_26_092518_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_26_093143_form_fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_26_093143_form_fields.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1603733828.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1603822974.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1603828766.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1603828809.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1603828852.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1603828908.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1603829297.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1603829446.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1603829471.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/fileUpload.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/fileUpload.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/1603733828.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/random/random.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/random/random1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -133,6 +170,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PDFReader" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -150,17 +188,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603805174406</updated>
-      <workItem from="1603805180076" duration="17429000" />
+      <workItem from="1603805180076" duration="18247000" />
+      <workItem from="1603869542053" duration="9655000" />
+      <workItem from="1603882424912" duration="26229000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603822354463">
+    <state x="416" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603915034058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603822354463" />
+    <state x="416" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1603915034058" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603902935399">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603902935399" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1603875451550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603875451550" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603891593600">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603891593600" />
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1603915050051">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1603915050051" />
+    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1603883399731">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1603883399731" />
   </component>
 </project>

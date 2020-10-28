@@ -4,13 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Notifications\Notifiable;
 
-class files extends Model
+class form_fields extends Model
 {
     use HasFactory;
 
-    protected $primaryKey = 'file_id';
     public $timestamps = false;
 
     /**
@@ -19,12 +17,15 @@ class files extends Model
      * @var array
      */
     protected $fillable = [
-        'file_name','file_type_id'
+        'file_id',
+        'field_name',
+        'field_type',
+        'field_value'
     ];
 
-    public function file_types()
+    public function files()
     {
-        return $this->belongsTo('App\models\file_types','file_type_id');
+        return $this->belongsTo('App\models\files','file_id');
     }
 
 }

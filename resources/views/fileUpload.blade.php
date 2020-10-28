@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>laravel 8 file upload example - ItSolutionStuff.com.com</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
+@extends('welcome')
 
-<body>
+@section('content')
+
 <div class="container">
 
-    <div class="panel panel-primary">
-        <div class="panel-heading"><h2>laravel 8 file upload example - ItSolutionStuff.com.com</h2></div>
-        <div class="panel-body">
+    <h1>Upload PDF file </h1>
 
             @if ($message = Session::get('success'))
                 <div class="alert alert-success alert-block">
@@ -45,9 +39,7 @@
                 </div>
             </form>
 
-        </div>
-    </div>
-</div>
-</body>
 
-</html>
+</div>
+
+@stop
