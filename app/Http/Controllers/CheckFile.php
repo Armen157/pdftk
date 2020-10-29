@@ -11,7 +11,7 @@ class CheckFile extends Controller
 
     /**
      * @param $file_name
-     * @return \Illuminate\Contracts\View\Illuminate\Http\RedirectResponse
+     * @return \Illuminate\Contracts\View\View
      */
     public static function checkExistFields($file_name){
 
@@ -27,22 +27,36 @@ class CheckFile extends Controller
         $fields = (array)$pdf->getDataFields();
         if($fields){
 
-            $file = new SaveFile($file_name);
-
-            //Save File Properties And get file_id
-            $file->saveFileProperties();
-
-            //find file_id
-            $file_id = files::select('file_id')->where('file_name', $file_name)->get();
-            $file_id = $file_id[0]->file_id;
-
-            //Save Fields Properties
-            $file->saveFileFieldProperties($fields,$file_id);
+           $file_id = self::IfExistsFieldsInFile($file_name,$fields);
 
             return view('input', ["fields"=>$fields,"file_id"=>$file_id]);
         }else{
             return back()->withErrors(['msg', 'There are no fields in this file']);
         }
+
+    }
+
+    /**
+     * @param $file_name
+     * @param $fields
+     * @return $file_id
+     */
+    public static function IfExistsFieldsInFile($file_name, $fields){
+
+        $file = new SaveFile($file_name);
+
+        //Save File Properties
+        $file->saveFileProperties();
+
+        //find file_id
+        $file_id = files::select('file_id')->where('file_name', $file_name)->get();
+        $file_id = $file_id[0]->file_id;
+
+
+        //Save Fields Properties
+        $file->saveFileFieldProperties($fields,$file_id);
+
+        return $file_id;
 
     }
 }

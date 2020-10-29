@@ -2,32 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e189d68f-c779-4cb5-b219-a041b8a795b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/fileDownload.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/saveFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SaveFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/file_types.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/file_types.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/files.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_26_092518_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_26_092518_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_26_093143_form_fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_26_093143_form_fields.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/1603733828.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/1603822974.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/1603828766.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/1603828809.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/1603828852.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/1603828908.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/1603829297.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/1603829446.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/1603829471.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/fileUpload.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/fileUpload.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/1603733828.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/random/random.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/random/random1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EditFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EditFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PDFReader" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api_users" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -190,7 +169,9 @@
       <updated>1603805174406</updated>
       <workItem from="1603805180076" duration="18247000" />
       <workItem from="1603869542053" duration="9655000" />
-      <workItem from="1603882424912" duration="26229000" />
+      <workItem from="1603882424912" duration="26834000" />
+      <workItem from="1603954966010" duration="741000" />
+      <workItem from="1603956409668" duration="3542000" />
     </task>
     <servers />
   </component>
@@ -205,18 +186,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="416" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1603915034058" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603902935399">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603958644373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603902935399" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603958644373" />
     <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1603875451550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603875451550" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603891593600">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603956420937">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603891593600" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603956420937" />
+    <state x="502" y="86" key="NewPhpClassDialog" timestamp="1603958539320">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="502" y="86" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1603958539320" />
     <state x="518" y="287" key="NewPhpFileDialog" timestamp="1603915050051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
